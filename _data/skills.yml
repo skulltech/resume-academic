@@ -1,12 +1,16 @@
 # Skills
-# Donut design
-- skill: Donut design
-  description: Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research
+# Automated testing
+- skill: Browser automation | Automated software-testing | Quality Assurance
+  description: Using QA frameworks like Selenium and Appium to automate software-testing
 
-# Craft beer brewing
-- skill: Craft beer brewing
-  description: Hops inspection, brew testing, distribution management, bottle label design, festival and event management
+# Automated testing
+- skill: Web Scraping
+  description: Scraping data from the web using simple libraries like requests and lxml or powerful frameworks such as Scrapy
 
-# Family leadership
-- skill: Family leadership
-  description: Bread winning, conflict resolution, couch inspection, TV longevity testing
+# Programming Languages
+- skill: Programming Languages - Python, Java, C++
+  description: Programming proficiently in the above mentioned languages
+
+# Web Development
+- skill: Web Development
+  description: Back-end Web Development using Django. Basic front-end designing using Bootstrap and Javascript.

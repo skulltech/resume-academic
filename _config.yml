@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Sumit Ghosh"
+description: "Personal site of Sumit Ghosh aka SkullTech."
 
 # Build settings
 markdown: kramdown
@@ -8,14 +8,16 @@ sass:
   sass_dir: _sass
   style: compressed
 
+plugins:
+  - jekyll-sitemap
+
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Homer J. Simpson"
-resume_title:                   "Nuclear Safety Inspector"
-resume_contact_email:
-  "homerjsimpson@youremailaddress.com"
-resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
+resume_name:                    "Sumit Ghosh @SkullTech"
+resume_title:                   "Browser Automation Consultant"
+resume_contact_email: "sumit@sumit-ghosh.com"
+resume_header_contact_info: "Satpura Hostel, IIT Delhi, New Delhi, India | sumit@sumit-ghosh.com"
+resume_header_intro: <p>I'm a passionate consultant specializing in <b>Browser automation and testing of web-apps using Selenium Webdriver</b>.<br>I'm also proficient in -<ul class="resume-item-list"><li>Browser automation and testing of web-apps using Selenium Webdriver</li><li>Web-scraping using simple libraries like lxml, Requests, and BeautifulSoup or by using powerful frameworks like Scrapy</li><li>Web APIs like Google Search, Gmail, Twitter, Reddit, Steam etc.</li><li>Web-development (especially back-end) using Django or Flask</li></ul></p><p>Currently undergrad student at IIT Delhi, I've been working as a freelance programmer and consultant at Upwork for about 2 years. I'm an ambitious person who's always trying to improve himself, someone fascinated by movies, music, philosophy and travel.</p><p>Right now, I'm looking for opportunities which can be a learning experience. I'd be glad to help you, drop me an email at <b><span>sumit</span><b>@</b>sumit-ghosh.com</b>, or just click on the 'Contact Me' button below.
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -27,23 +29,23 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
+resume_section_projects:        false
 resume_section_skills:          true
-resume_section_recognition:     true
+resume_section_recognition:     false
 resume_section_links:           true
 resume_section_associations:    true
-# resume_section_interests:       true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  resume_github_url:            "https://github.com/SkullTech"
+  resume_twitter_url:           "http://twitter.com/SkullTech101"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_facebook_url:          "https://www.facebook.com/sanju.ghosh"
+  resume_linkedin_url:          "https://www.linkedin.com/in/sumit-ghosh-skulltech/"
+  resume_instagram_url:         "https://www.instagram.com/sumit.ghosh101"
+  resume_website_url:           "http://techkernel.org"
 resume_print_social_links:      true
 
 # Design settings
