@@ -95,13 +95,13 @@
         </header>
         <ul>
         {% for course in site.data.courses %}
-            <li class="resume-item-title" itemprop="course">{{ education.uni }}</li>
+            <li class="resume-item" itemprop="course">{{ course }}</li>
         {% endfor %}
         </ul>
-        <ul class="resume-item-details">
-          <li>*Will be completed by Summer 2018</li>
-          <li>^Online course (MOOC)</li>
-        </ul>
+        <p class="resume-item-details">
+          *Will be completed by Summer 2018<br>
+          ^Online course (MOOC)
+        </p>
       </section>
       <!-- end Education -->
       {% endif %}
