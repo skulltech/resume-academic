@@ -5,10 +5,10 @@
 
 # Automated testing
 - skill: Web Scraping
-  description: Scraping data from the web using simple libraries like requests and lxml or powerful frameworks such as Scrapy
+  description: Scraping data from the web using libraries like requests and lxml or powerful frameworks like Scrapy
 
 # Programming Languages
-- skill: Programming Languages - Python, Java, C++
+- skill: Programming Languages - Python, Java, Ocaml
   description: Programming proficiently in the above mentioned languages
 
 # Web Development

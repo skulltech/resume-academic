@@ -1,6 +1,6 @@
 # Site settings
 title: "Sumit Ghosh"
-description: "Personal site of Sumit Ghosh aka SkullTech."
+description: "Academic Resume of Sumit Ghosh."
 
 # Build settings
 markdown: kramdown
@@ -13,7 +13,7 @@ plugins:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Sumit Ghosh @SkullTech"
+resume_name:                    "Sumit Kumar Ghosh"
 resume_title:                   "Browser Automation Consultant"
 resume_contact_email: "sumit@sumit-ghosh.com"
 resume_header_contact_info: "Satpura Hostel, IIT Delhi, New Delhi, India | sumit@sumit-ghosh.com"
@@ -36,7 +36,8 @@ resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           true
 resume_section_associations:    true
-resume_section_interests:       true
+resume_section_interests:       false
+resume_section_courses:         true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
@@ -48,7 +49,7 @@ resume_social_links:
   resume_linkedin_url:          "https://www.linkedin.com/in/sumit-ghosh-skulltech/"
   resume_instagram_url:         "https://www.instagram.com/sumit.ghosh101"
   resume_website_url:           "http://techkernel.org"
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
 resume_theme:                   default

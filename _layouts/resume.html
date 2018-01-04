@@ -87,6 +87,25 @@
       {% endif %}
 
 
+      {% if site.resume_section_courses %}
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Relevant Courses Done</h2>
+        </header>
+        <ul>
+        {% for course in site.data.courses %}
+            <li class="resume-item-title" itemprop="course">{{ education.uni }}</li>
+        {% endfor %}
+        </ul>
+        <ul class="resume-item-details">
+          <li>*Will be completed by Summer 2018</li>
+          <li>^Online course (MOOC)</li>
+        </ul>
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
