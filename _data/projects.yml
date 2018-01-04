@@ -4,11 +4,11 @@
 # Super1337-CTF
 - project: Super1337-CTF
   mentor: null
-  duration: June &dash October, 2017
+  duration: June &mdash October, 2017
   url: "https://github.com/super1337/Super1337-CTF"
   technologies:
-    - Python
     - Django
+    - Hacking
   description: A site for hosting CTF contests. Comes with a complete scoring and leaderboards system.
 
 # PearSend
@@ -33,13 +33,32 @@
 
 #Springfield Donut Eater's User Group
 - project: Data Structures and Algorithms Projects
-  mentor: Prof. Mausam
-  duration: October, 2017
+  mentor: Prof. Mausam | Prof. Sedgewick
+  duration: July &mdash November, 2017
   # url: "#"
   technologies:
     - Java
-    - Graph Algorithms
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
-  sub-projects: 
-    - name: name
-    - description: desc
+  description: These are projects I did related to Data Structures and Algorithms.
+  subprojects: 
+    - name: Image Compression System
+      description: Encode a given monochrome image in a compact format and perform operations like Inversion and Morphing (SetPixel and XOR, AND, OR with another image) on this format. The idea was to use the redundancy in the pixel value information among neighboring pixels, reducing the amount of information to be stored.
+    - name: 8‑Puzzle Solver
+      description: Finds the most cost-effective way to solve a given 8-puzzle. Implemented using Djikstra's and A-star algorithms.
+
+# Springfield Donut Eater's User Group
+- project: Digital System Design in VHDL
+  mentor: Prof. Anshul Kumar
+  duration: August &mdash November, 2017
+  # url: "#"
+  technologies:
+    - VHDL
+    - Xilinx Vivado
+    - Xilinx ISE
+  description: These are projects I did related to Digital System Design in VHDL.
+  subprojects: 
+    - name: Implementation of UART
+      description: Implemented a fullly-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
+    - name: Elevator System
+      description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors. Realized a Finite State Machine(FSM) that handled multiple requests from inside the lifts as well as from the respective floors. The current state of both the lifts were displayed on a Seven Segment Display (SSD).
+    - name: 3 Port Priority Encoded Switch
+      description: Realized a 3 port data transfer system (on Xilinx Spartan 6 module) with request inputs, acknowledgement outputs and hard coded priority of inputs. Tweaks were made to eliminate starvation of a low priority port by modifying the priority order dynamically.
