@@ -1,6 +1,6 @@
 # Skills
 # Automated testing
-- skill: Browser automation | Automated software-testing | Quality Assurance
+- skill: Browser automation | Automated software-testing and Quality Assurance
   description: Using QA frameworks like Selenium and Appium to automate software-testing
 
 # Automated testing
@@ -12,5 +12,5 @@
   description: Programming proficiently in the above mentioned languages
 
 # Web Development
-- skill: Web Development
+- skill: Web Development using Django
   description: Back-end Web Development using Django. Basic front-end designing using Bootstrap and Javascript.

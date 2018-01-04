@@ -6,6 +6,7 @@
   mentor: null
   duration: June &mdash; October, 2017
   url: "https://github.com/super1337/Super1337-CTF"
+  tags: Djnago, Hacking
   technologies:
     - Django
     - Hacking
@@ -16,6 +17,7 @@
   mentor: null
   duration: December, 2017
   url: "https://github.com/SkullTech/PearSend"
+  tags: Python, Sockets
   technologies:
     - Python
     - Sockets
@@ -26,6 +28,7 @@
   mentor: null
   duration: January, 2017
   url: "https://github.com/SkullTech/journalist"
+  tags: Python, Github API
   technologies:
     - Python
     - Github API
@@ -36,6 +39,7 @@
   mentor: Prof. Mausam | Prof. Sedgewick
   duration: July &mdash; November, 2017
   # url: "#"
+  tags: Java
   technologies:
     - Java
   description: These are projects I did related to Data Structures and Algorithms.
@@ -50,6 +54,7 @@
   mentor: Prof. Anshul Kumar
   duration: August &mdash; November, 2017
   # url: "#"
+  tags: VHDL, Xilinx Vivado
   technologies:
     - VHDL
     - Xilinx Vivado

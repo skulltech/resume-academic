@@ -123,13 +123,15 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{% if project.mentor %}{{ project.mentor }}  &bull; {% endif %}{{ project.duration }}</h4>
-          <p class="resume-item-copy">
-            <ul class="resume-item-list">
+          <h4 class="resume-item-details" itemprop="description">{% if project.mentor %}{{ project.mentor }} &bull; {% endif %}{{ project.tags }} &bull; {{ project.duration }}</h4>
+<!--           
+          <ul class="resume-item-list">
               {% for tech in project.technologies %}
               <li>{{ tech }}</li>
               {% endfor %}
-            </ul></h5>
+          </ul>
+
+  -->         
           <p class="resume-item-copy">{{ project.description }}</p>
           {% if project.subprojects %}
           <div class="resume-item">
@@ -158,8 +160,8 @@
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <ul>
+          <li><h3 class="resume-item-details">{{ skill.skill }}</h3></li>
         </div>
         {% endfor %}
 
