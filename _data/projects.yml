@@ -4,7 +4,7 @@
 # Super1337-CTF
 - project: Super1337-CTF
   mentor: null
-  duration: June &mdash October, 2017
+  duration: June &mdash; October, 2017
   url: "https://github.com/super1337/Super1337-CTF"
   technologies:
     - Django
@@ -34,7 +34,7 @@
 #Springfield Donut Eater's User Group
 - project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam | Prof. Sedgewick
-  duration: July &mdash November, 2017
+  duration: July &mdash; November, 2017
   # url: "#"
   technologies:
     - Java
@@ -48,7 +48,7 @@
 # Springfield Donut Eater's User Group
 - project: Digital System Design in VHDL
   mentor: Prof. Anshul Kumar
-  duration: August &mdash November, 2017
+  duration: August &mdash; November, 2017
   # url: "#"
   technologies:
     - VHDL

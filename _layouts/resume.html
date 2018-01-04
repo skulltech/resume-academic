@@ -137,8 +137,7 @@
           {% for sub in project.subprojects %}  
           <li>
             <div class="resume-item">
-              <h4 class="resume-item-details">{{ sub.name }}</h4>
-              <p class="resume-item-copy">{{ sub.description }}</p>
+              <h4 class="resume-item-details">{{ sub.name }}</h4> &mdash; {{ sub.description }}
             </div>
           </li>
           {% endfor %}
