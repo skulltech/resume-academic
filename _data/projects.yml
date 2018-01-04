@@ -3,14 +3,20 @@
 
 # donutfinder.io
 - project: donutfinder.io
-  role: Founder & Primary Developer
+  mentor: Prof. Anshul
   duration: 2012 &mdash; Present
-  # url: "#"
+  url: "#"
+  technologies:
+    - Python
+    - Wizardry
   description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
 
 #Springfield Donut Eater's User Group
 - project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
+  mentor: Prof. Mausam
   duration: 2007 &mdash; Present
-  # url: "#"
+  url: "#"
+  technologies:
+    - Java
+    - Sorcery
   description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
