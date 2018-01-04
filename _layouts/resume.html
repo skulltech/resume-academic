@@ -132,7 +132,7 @@
             </ul></h5>
           <p class="resume-item-copy">{{ project.description }}</p>
           {% if project.subprojects %}
-          {% for sub in subprojects %}
+          {% for sub in project.subprojects %}
           <h4 class="resume-item-details">{{ sub.name }}</h4>
           <p class="resume-item-copy">{{ sub.description }}</p>
           {% endfor %}
