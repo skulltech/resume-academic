@@ -1,22 +1,45 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  mentor: Prof. Anshul
-  duration: 2012 &mdash; Present
-  url: "#"
+# Super1337-CTF
+- project: Super1337-CTF
+  mentor: null
+  duration: June &dash October, 2017
+  url: "https://github.com/super1337/Super1337-CTF"
   technologies:
     - Python
-    - Wizardry
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+    - Django
+  description: A site for hosting CTF contests. Comes with a complete scoring and leaderboards system.
+
+# PearSend
+- project: PearSend
+  mentor: null
+  duration: December, 2017
+  url: "https://github.com/SkullTech/PearSend"
+  technologies:
+    - Python
+    - Sockets
+  description: A simple CLI client for peer-to-peer file or message sending. It supports protection against transmission error using CRC32 checksum, and comes with CLI (command-line argument) and interactive mode both.
+
+# Journalist
+- project: Journalist
+  mentor: null
+  duration: January, 2017
+  url: "https://github.com/SkullTech/journalist"
+  technologies:
+    - Python
+    - Github API
+  description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
 #Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
+- project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam
-  duration: 2007 &mdash; Present
-  url: "#"
+  duration: October, 2017
+  # url: "#"
   technologies:
     - Java
-    - Sorcery
+    - Graph Algorithms
   description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  sub-projects: 
+    - name: name
+    - description: desc
