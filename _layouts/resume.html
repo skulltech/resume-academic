@@ -27,15 +27,10 @@
         <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2> sumit@sumit-ghosh.com 
-          <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a>
-          <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a>
+          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-<!--           
           {% include icon-links.html %}
-
--->        
         </div>
 
         <div class="executive-summary no-print" itemprop="description">
