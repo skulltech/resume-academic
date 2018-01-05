@@ -49,7 +49,7 @@ resume_social_links:
   # resume_linkedin_url:          "https://www.linkedin.com/in/sumit-ghosh-skulltech/"
   # resume_instagram_url:         "https://www.instagram.com/sumit.ghosh101"
   resume_website_url:           "http://techkernel.org"
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
 resume_theme:                   default
