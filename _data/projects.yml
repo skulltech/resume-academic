@@ -53,6 +53,7 @@
   technologies:
     - Java
   description: null
+  subprojects: 
     - name: 8‑Puzzle Solver
       description: Finds the most cost-effective way to solve a given 8-puzzle. Implemented using Djikstra's and A-star algorithms.
     - name: Image Compression System
