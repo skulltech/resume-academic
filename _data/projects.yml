@@ -24,17 +24,6 @@
   description: A simple CLI client for peer-to-peer file or message sending. It supports protection against transmission error using CRC32 checksum, and comes with CLI (command-line argument) and interactive mode both.
 
 # Journalist
-- project: Journalist
-  mentor: null
-  duration: January, 2017
-  url: "https://github.com/SkullTech/journalist"
-  tags: Python, Github API
-  technologies:
-    - Python
-    - Github API
-  description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
-
-# Journalist
 - project: Compiler and Programming Language Design
   mentor: Prof. Sanjiva Prasad
   duration: January &mdash; April, 2018
@@ -44,6 +33,28 @@
     - OCaml
   description: Designing a programming language, complete with its compiler (written in OCaml). Various aspects of programming Languages theory were explored through this project.
 
+
+# Journalist
+- project: Designing an ARM Processor
+  mentor: Prof. Anshul Kumar
+  duration: January &mdash; April, 2018
+  url: null
+  tags: CPU, Processor Design, VHDL
+  technologies:
+    - VHDL
+  description: Designing a complete ARM CPU using VHDL. Best practices of processor design are being implemented in this project, such as dividing the CPU into datapath and controller, pipelining, etc.
+
+
+# Journalist
+- project: Journalist
+  mentor: null
+  duration: January, 2017
+  url: "https://github.com/SkullTech/journalist"
+  tags: Python, Github API
+  technologies:
+    - Python
+    - Github API
+  description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
 - project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam & Prof. Sedgewick
@@ -76,13 +87,3 @@
       description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
     - name: Elevator System
       description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
-
-# Journalist
-- project: Designing an ARM Processor
-  mentor: Prof. Anshul Kumar
-  duration: January &mdash; April, 2018
-  url: null
-  tags: CPU, Processor Design, VHDL
-  technologies:
-    - VHDL
-  description: Designing a complete ARM CPU using VHDL. Best practices of processor design are being implemented in this project, such as dividing the CPU into datapath and controller, pipelining, etc.
