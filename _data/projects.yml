@@ -37,7 +37,7 @@
 # Journalist
 - project: Compiler and Programming Language Design
   mentor: Prof. Sanjiva Prasad
-  duration: January &mdash; April, 2017
+  duration: January &mdash; April, 2018
   url: null
   tags: Compiler, Programming Languages, OCaml
   technologies:
@@ -76,3 +76,13 @@
       description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
     - name: Elevator System
       description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
+
+# Journalist
+- project: Designing an ARM Processor
+  mentor: Prof. Anshul Kumar
+  duration: January &mdash; April, 2018
+  url: null
+  tags: CPU, Processor Design, VHDL
+  technologies:
+    - VHDL
+  description: Designing a complete ARM CPU using VHDL. Best practices of processor design are being implemented in this project, such as dividing the CPU into datapath and controller, pipelining, etc.
