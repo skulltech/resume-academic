@@ -101,11 +101,16 @@
         <header class="section-header">
           <h2>Relevant Courses Done</h2>
         </header>
+<!--
         <ul>
-        {% for course in site.data.courses %}
+        {% for course in site.data.courses.list %}
             <li>{{ course }}</li>
         {% endfor %}
         </ul>
+-->
+        <p class="resume-item-copy">
+          {{ site.data.courses.paragraph }}
+        </p>
         <p class="resume-item-copy">
           *Will be completed by Summer 2018<br>
           ^Online course (MOOC)
