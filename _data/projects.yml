@@ -65,6 +65,18 @@
     - Github API
   description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
+# Journalist
+- project: Insightous
+  mentor: null
+  duration: January, 2017
+  url: "https://github.com/SkullTech/Insightous"
+  tags: Machine Learning, Twitter API
+  technologies:
+    - Twitter API
+    - Machine Learning
+  description: Get someone's personality insights from their Twitter timeline! This app uses various machine learning techniques to analyse someone's timeline and their tweets.
+
+
 - project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam & Prof. Sedgewick
   duration: July &mdash; November, 2017
