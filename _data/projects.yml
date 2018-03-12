@@ -34,6 +34,17 @@
     - Github API
   description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
+# Journalist
+- project: Compiler and Programming Language Design using OCaml
+  mentor: Prof. Sanjiva Prasad
+  duration: January &mdash April, 2017
+  url: null
+  tags: Compiler, Programming Languages, OCaml
+  technologies:
+    - OCaml
+  description: Designing a programming language, complete with its compiler (written in OCaml). Various aspects of programming Languages theory were explored through this project.
+
+
 - project: Data Structures and Algorithms Projects
   mentor: Prof. Mausam | Prof. Sedgewick
   duration: July &mdash; November, 2017
@@ -46,7 +57,7 @@
     - name: 8‑Puzzle Solver
       description: Finds the most cost-effective way to solve a given 8-puzzle. Implemented using Djikstra's and A-star algorithms.
     - name: Image Compression System
-      description: Encode a given monochrome image in a compact format and perform operations like Inversion and Morphing (SetPixel and XOR, AND, OR with another image) on this format. The idea was to use the redundancy in the pixel value information among neighboring pixels, reducing the amount of information to be stored.
+      description: Encode a given monochrome image in a compact format and perform operations like Inversion and Morphing on that.
     - name: Percolation Simulator
       description: Implemented using Union-Find data structure, it simulates percolation behavior of fluids.
 
@@ -62,8 +73,6 @@
   description: These are projects I did related to Digital System Design in VHDL.
   subprojects: 
     - name: Implementation of UART
-      description: Implemented a fullly-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
+      description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
     - name: Elevator System
-      description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors. Realized a Finite State Machine(FSM) that handled multiple requests from inside the lifts as well as from the respective floors. The current state of both the lifts were displayed on a Seven Segment Display (SSD).
-    - name: 3 Port Priority Encoded Switch
-      description: Realized a 3 port data transfer system (on Xilinx Spartan 6 module) with request inputs, acknowledgement outputs and hard coded priority of inputs. Tweaks were made to eliminate starvation of a low priority port by modifying the priority order dynamically.
+      description: Implemented on the FPGA board using VHDL, it consisted of a model of two lifts spanning over 4 floors.
