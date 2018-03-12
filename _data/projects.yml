@@ -33,6 +33,15 @@
     - OCaml
   description: Designing a programming language, complete with its compiler (written in OCaml). Various aspects of programming Languages theory were explored through this project.
 
+# Journalist
+- project: deCAD
+  mentor: Prof. Sanjiva Prasad
+  duration: January &mdash; April, 2018
+  url: https://github.com/SkullTech/deCAD
+  tags: C++, QT
+  technologies:
+    - C++
+  description: deCAD is a software package for basic computer-aided engineering drawing. Complete with a GUI interface, it provides easy conversion from 2D projections to 3D model and vice-versa.
 
 # Journalist
 - project: Designing an ARM Processor
