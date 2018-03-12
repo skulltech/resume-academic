@@ -35,9 +35,9 @@
   description: App to write journal digitally. It lets you write your journal using Markdown in your favorite text-editor, stores written journals in a comprehensive directory structure and lets you view the journals (Markdown rendered in HTML) in browser.
 
 # Journalist
-- project: Compiler and Programming Language Design using OCaml
+- project: Compiler and Programming Language Design
   mentor: Prof. Sanjiva Prasad
-  duration: January &mdash April, 2017
+  duration: January &mdash; April, 2017
   url: null
   tags: Compiler, Programming Languages, OCaml
   technologies:
@@ -46,7 +46,7 @@
 
 
 - project: Data Structures and Algorithms Projects
-  mentor: Prof. Mausam | Prof. Sedgewick
+  mentor: Prof. Mausam & Prof. Sedgewick
   duration: July &mdash; November, 2017
   # url: "#"
   tags: Java
