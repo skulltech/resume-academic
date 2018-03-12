@@ -139,7 +139,9 @@
           </ul>
 
   -->         
-          <p class="resume-item-copy">{{ project.description }}</p>
+          {% if project.description %}
+            <p class="resume-item-copy">{{ project.description }}</p>
+          {% endif %}
           {% if project.subprojects %}
           <div class="resume-item">
           <ul class="resume-item-list">

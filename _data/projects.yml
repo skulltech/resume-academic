@@ -52,8 +52,7 @@
   tags: Java
   technologies:
     - Java
-  description: These are projects I did related to Data Structures and Algorithms.
-  subprojects: 
+  description: null
     - name: 8‑Puzzle Solver
       description: Finds the most cost-effective way to solve a given 8-puzzle. Implemented using Djikstra's and A-star algorithms.
     - name: Image Compression System
@@ -70,7 +69,7 @@
     - VHDL
     - Xilinx Vivado
     - Xilinx ISE
-  description: These are projects I did related to Digital System Design in VHDL.
+  description: null
   subprojects: 
     - name: Implementation of UART
       description: Implemented a fully-functioning UART (Universal Asynchronous Receiver-Transmitter) on FPGA board that helped communication between a computer and the FPGA through USB.
